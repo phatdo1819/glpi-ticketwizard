@@ -1,0 +1,68 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+
+msgid "Ticket Guided Wizard"
+msgstr "Trình hướng dẫn tạo yêu cầu"
+
+msgid "A guided step-by-step wizard to help users create GLPI tickets."
+msgstr "Trình hướng dẫn từng bước giúp người dùng tạo yêu cầu GLPI."
+
+# Settings page (front/config.php, labels from setup.php)
+
+msgid "Ticket Guided Wizard Configuration"
+msgstr "Cấu hình trình hướng dẫn tạo yêu cầu"
+
+msgid "Configure Step Visibility in the Wizard"
+msgstr "Cấu hình các bước hiển thị trong trình hướng dẫn"
+
+msgid "Configuration updated successfully!"
+msgstr "Đã cập nhật cấu hình thành công!"
+
+msgid "Ticket Type Selection"
+msgstr "Chọn loại yêu cầu"
+
+msgid "Category Selection"
+msgstr "Chọn danh mục"
+
+msgid "Urgency Selection"
+msgstr "Chọn mức độ khẩn cấp"
+
+msgid "Impact Selection"
+msgstr "Chọn mức độ ảnh hưởng"
+
+msgid "Priority Override"
+msgstr "Thay đổi mức độ ưu tiên"
+
+msgid "Location Selection"
+msgstr "Chọn vị trí"
+
+msgid "Associated Asset / Device Selection"
+msgstr "Chọn tài sản / thiết bị liên quan"
+
+msgid "Requester Selection"
+msgstr "Chọn người yêu cầu"
+
+msgid "Observer Selection"
+msgstr "Chọn người theo dõi"
+
+msgid "Assignee Selection"
+msgstr "Chọn người xử lý"
+
+msgid "Ticket Title"
+msgstr "Tiêu đề yêu cầu"
+
+msgid "Description (TinyMCE / Rich Text)"
+msgstr "Mô tả (văn bản định dạng)"
+
+msgid "File Attachments Dropzone"
+msgstr "Tệp đính kèm"
+
+msgid "Other Questions of Service Catalog Forms (GLPI 11)"
+msgstr "Các câu hỏi khác của biểu mẫu danh mục dịch vụ (GLPI 11)"
+
+msgid "Add / Submit Ticket Button"
+msgstr "Nút Thêm / Gửi yêu cầu"

@@ -1,0 +1,13 @@
+# Keep LF line endings on every system, as GLPI servers run Linux
+*.php   text eol=lf
+*.js    text eol=lf
+*.css   text eol=lf
+*.po    text eol=lf
+*.md    text eol=lf
+LICENSE text eol=lf
+*.mo    binary
+*.png   binary
+
+# Not part of the plugin: left out of release archives
+screenshots/    export-ignore
+.gitattributes  export-ignore

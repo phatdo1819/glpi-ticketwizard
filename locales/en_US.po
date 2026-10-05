@@ -1,0 +1,68 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+
+msgid "Ticket Guided Wizard"
+msgstr "Ticket Guided Wizard"
+
+msgid "A guided step-by-step wizard to help users create GLPI tickets."
+msgstr "A guided step-by-step wizard to help users create GLPI tickets."
+
+# Settings page (front/config.php, labels from setup.php)
+
+msgid "Ticket Guided Wizard Configuration"
+msgstr "Ticket Guided Wizard Configuration"
+
+msgid "Configure Step Visibility in the Wizard"
+msgstr "Configure Step Visibility in the Wizard"
+
+msgid "Configuration updated successfully!"
+msgstr "Configuration updated successfully!"
+
+msgid "Ticket Type Selection"
+msgstr "Ticket Type Selection"
+
+msgid "Category Selection"
+msgstr "Category Selection"
+
+msgid "Urgency Selection"
+msgstr "Urgency Selection"
+
+msgid "Impact Selection"
+msgstr "Impact Selection"
+
+msgid "Priority Override"
+msgstr "Priority Override"
+
+msgid "Location Selection"
+msgstr "Location Selection"
+
+msgid "Associated Asset / Device Selection"
+msgstr "Associated Asset / Device Selection"
+
+msgid "Requester Selection"
+msgstr "Requester Selection"
+
+msgid "Observer Selection"
+msgstr "Observer Selection"
+
+msgid "Assignee Selection"
+msgstr "Assignee Selection"
+
+msgid "Ticket Title"
+msgstr "Ticket Title"
+
+msgid "Description (TinyMCE / Rich Text)"
+msgstr "Description (TinyMCE / Rich Text)"
+
+msgid "File Attachments Dropzone"
+msgstr "File Attachments Dropzone"
+
+msgid "Other Questions of Service Catalog Forms (GLPI 11)"
+msgstr "Other Questions of Service Catalog Forms (GLPI 11)"
+
+msgid "Add / Submit Ticket Button"
+msgstr "Add / Submit Ticket Button"
