@@ -9,7 +9,7 @@
  * Compatible with GLPI 10.0+ and GLPI 11.x
  */
 
-define('TICKETWIZARD_VERSION', '1.0.0');
+define('TICKETWIZARD_VERSION', '1.0.1');
 define('TICKETWIZARD_MIN_GLPI', '10.0.0');
 
 /**

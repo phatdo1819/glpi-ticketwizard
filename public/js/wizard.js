@@ -1077,12 +1077,23 @@
     /*  does when the user changes Type or Category). Tied to the page, so */
     /*  it never resumes on a different one.                               */
     /* ------------------------------------------------------------------ */
+    // Which page the tour state belongs to. GLPI 10's simplified ticket form
+    // (helpdesk.public.php) reloads itself through tracking.injector.php when
+    // Type or Category changes, so a ticket form is known by its folder, not
+    // its file. A service catalog form is known by its full address.
+    function getPageKey() {
+        if (pageType === 'ticket') {
+            return 'ticket:' + location.pathname.replace(/[^/]*$/, '');
+        }
+        return (pageType || '') + ':' + location.pathname;
+    }
+
     function saveTourState() {
         const step = tourSteps[currentStep];
         storageSet('tw_active', 'true');
         storageSet('tw_step', currentStep.toString());
         storageSet('tw_step_key', step ? step.key : '');
-        storageSet('tw_page', location.pathname);
+        storageSet('tw_page', getPageKey());
     }
 
     function resetTourState() {
@@ -1570,7 +1581,7 @@
                 // actions: closing/finishing the guide, submitting the ticket,
                 // or following a link to another page.
                 const wasActive = storageGet('tw_active') === 'true' &&
-                                  storageGet('tw_page') === location.pathname;
+                                  storageGet('tw_page') === getPageKey();
                 if (wasActive) {
                     const savedKey = storageGet('tw_step_key');
                     let index = tourSteps.findIndex(s => s.key === savedKey);

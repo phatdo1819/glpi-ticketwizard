@@ -2,7 +2,7 @@
 
 > A step-by-step guided wizard that helps end-users create GLPI tickets correctly, in both the **Standard** and **Simplified** interfaces — including GLPI 11's **service catalog** forms.
 
-**Version:** 1.0.0  
+**Version:** 1.0.1  
 **License:** MIT  
 **GLPI Compatibility:** 10.0 and 11.0 (tested on 10.0.28 and 11.0.11)
 
